@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\daiki\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add gatsby-plugin-emotion @emotion/react @emotion/styled
+
+PATH: 
+  D:\Documents\PowerShell\Modules\oh-my-posh;C:\Users\daiki\anaconda3;C:\Users\daiki\anaconda3\Library\mingw-w64\bin;C:\Users\daiki\anaconda3\Library\usr\bin;C:\Users\daiki\anaconda3\Library\bin;C:\Users\daiki\anaconda3\Scripts;C:\Users\daiki\anaconda3\bin;C:\Users\daiki\anaconda3\condabin;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.2.5.0_x64__8wekyb3d8bbwe;C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.13.11432.0_x64__8wekyb3d8bbwe;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\Program Files (x86)\dotnet;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Program Files (x86)\QuickTime\QTSystem;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Users\daiki\scoop\shims;C:\Ruby30-x64\bin;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\daito\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\daito\AppData\Local\Programs\Python\Python310;C:\Users\daiki\AppData\Local\Microsoft\WindowsApps;C:\Users\daiki\.dotnet\tools;C:\Users\daiki\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\CMake\bin;C:\Users\daiki\AppData\Roaming\npm;C:\Users\daiki\AppData\Local\GitHubDesktop\bin;C:\Program Files\KTX-Software\bin;C:\Program Files\UrgBenriPlus;C:\Users\daiki\AppData\Local\Programs\oh-my-posh\bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\Documents\Intern\Nsketch\gatsby-tutorial\node_modules\@lmdb\lmdb-win32-x64\node.abi93.node'
+
+npm manifest: 
+  {
+    "name": "gatsby-tutorial",
+    "version": "1.0.0",
+    "private": true,
+    "description": "gatsby-tutorial",
+    "author": "daiki_ito",
+    "keywords": [
+      "gatsby"
+    ],
+    "scripts": {
+      "develop": "gatsby develop",
+      "start": "gatsby develop",
+      "build": "gatsby build",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean",
+      "typecheck": "tsc --noEmit"
+    },
+    "dependencies": {
+      "gatsby": "^4.19.1",
+      "react": "^18.1.0",
+      "react-dom": "^18.1.0"
+    },
+    "devDependencies": {
+      "@types/node": "^17.0.45",
+      "@types/react": "^18.0.15",
+      "@types/react-dom": "^18.0.6",
+      "typescript": "^4.7.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
